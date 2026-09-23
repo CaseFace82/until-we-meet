@@ -1,0 +1,510 @@
+/*
+  Until We Meet — styles.css
+  Warm, calm, mobile-first design with subtle seasonal themes.
+*/
+
+:root {
+  --bg: #f8f2ec;
+  --surface: #fffdf9;
+  --surface-soft: #f4ebe4;
+  --ink: #4d4946;
+  --muted: #817a75;
+  --accent: #d86269;
+  --accent-soft: #f7dddd;
+  --sage: #8da08b;
+  --sage-soft: #e8eee5;
+  --gold: #c6a469;
+  --line: rgba(77, 73, 70, .11);
+  --shadow: 0 10px 28px rgba(91, 74, 62, .08);
+  --radius: 24px;
+  --nav-height: 78px;
+  --season-mark: "♡";
+}
+
+* { box-sizing: border-box; }
+
+html {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 85% -5%, rgba(216,98,105,.08), transparent 28rem),
+    var(--bg);
+}
+
+button, input { font: inherit; }
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.page {
+  width: min(100%, 720px);
+  margin: 0 auto;
+  padding: 22px 18px 0;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 30px 42px 24px;
+}
+
+.hero::before {
+  content: var(--season-mark);
+  display: block;
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.hero-kicker {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 650;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.hero h1,
+.journey-header h1 {
+  margin: 8px 0 7px;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #423e3b;
+  font-weight: 500;
+  letter-spacing: -.025em;
+}
+
+.hero h1 {
+  font-size: clamp(31px, 8vw, 48px);
+  line-height: 1.08;
+}
+
+.hero h1 span { color: var(--accent); }
+
+.gestation {
+  margin-top: 9px;
+  color: var(--sage);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.favorite-button {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: rgba(255,253,249,.78);
+  color: #b5aca6;
+  font-size: 21px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(91,74,62,.05);
+}
+
+.favorite-button.is-favorite {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: transparent;
+}
+
+.size-card,
+.content-card,
+.milestone-card {
+  background: var(--surface);
+  border: 1px solid rgba(255,255,255,.8);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.size-card {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  padding: 20px 22px;
+  margin-bottom: 15px;
+}
+
+.size-visual {
+  display: grid;
+  place-items: center;
+  flex: 0 0 76px;
+  width: 76px;
+  height: 76px;
+  border-radius: 22px;
+  background: var(--sage-soft);
+  font-size: 42px;
+}
+
+.eyebrow {
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: .085em;
+  text-transform: uppercase;
+}
+
+.size-card h2,
+.milestone-card h2 {
+  margin: 0;
+  color: #494440;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.content-card {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 13px;
+  padding: 20px 20px 21px;
+  margin-bottom: 14px;
+}
+
+.card-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 14px;
+  background: var(--surface-soft);
+  color: var(--accent);
+  font-size: 18px;
+}
+
+.card-copy {
+  color: #514c48;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.development-card {
+  background: linear-gradient(135deg, var(--sage-soft), var(--surface));
+}
+
+.development-card .card-icon {
+  background: rgba(255,255,255,.68);
+  color: var(--sage);
+}
+
+.affirmation-card .card-icon {
+  background: var(--accent-soft);
+}
+
+.wisdom-card {
+  background: #fbf7ee;
+}
+
+.wisdom-card .card-icon {
+  background: #f3ead7;
+  color: var(--gold);
+}
+
+.casey-card {
+  background: linear-gradient(145deg, #fffafa, var(--surface));
+}
+
+.oliver-card {
+  background: linear-gradient(145deg, #f4f0e8, var(--surface));
+}
+
+.oliver-card .card-icon {
+  background: #e9e0d3;
+}
+
+.milestone-card {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 13px;
+  padding: 20px;
+  margin-bottom: 15px;
+  background: linear-gradient(135deg, #f9e6df, #fff9f3);
+}
+
+.milestone-sparkle {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.72);
+  color: var(--gold);
+  font-size: 22px;
+}
+
+.milestone-card p {
+  margin: 7px 0 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.back-button {
+  margin: 5px 0 2px;
+  padding: 9px 12px;
+  border: 0;
+  background: transparent;
+  color: var(--sage);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.journey-header {
+  padding: 30px 4px 19px;
+  text-align: center;
+}
+
+.journey-header h1 {
+  font-size: 40px;
+}
+
+.journey-header p {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+.filter-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4px;
+  margin: 0 0 16px;
+  border-radius: 18px;
+  background: rgba(255,255,255,.62);
+  border: 1px solid var(--line);
+}
+
+.filter-tabs button {
+  padding: 11px 8px;
+  border: 0;
+  border-radius: 14px;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.filter-tabs button.active {
+  background: var(--surface);
+  color: var(--accent);
+  box-shadow: 0 4px 14px rgba(91,74,62,.07);
+}
+
+.journey-list {
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.journey-row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 18px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.journey-row:last-child { border-bottom: 0; }
+
+.journey-date {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.journey-date strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.journey-date small {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.journey-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #a79f99;
+  font-size: 24px;
+}
+
+.row-heart {
+  color: var(--accent);
+  font-size: 15px;
+}
+
+.empty-state,
+.error-card {
+  padding: 34px 22px;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.error-card {
+  width: min(calc(100% - 36px), 680px);
+  margin: 40px auto;
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.page-spacer {
+  height: calc(var(--nav-height) + 38px + env(safe-area-inset-bottom));
+}
+
+.bottom-nav {
+  position: fixed;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: var(--nav-height);
+  padding: 7px max(10px, env(safe-area-inset-right))
+           calc(7px + env(safe-area-inset-bottom))
+           max(10px, env(safe-area-inset-left));
+  border-top: 1px solid var(--line);
+  background: rgba(255,253,249,.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.bottom-nav button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  border: 0;
+  background: transparent;
+  color: #70777a;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bottom-nav .nav-icon {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.bottom-nav button.active {
+  color: var(--accent);
+  font-weight: 750;
+}
+
+/* Seasonal accents stay intentionally subtle. */
+html[data-theme="autumn"] {
+  --accent: #bf735a;
+  --accent-soft: #f4ded4;
+  --sage: #899278;
+  --season-mark: "🍂";
+}
+
+html[data-theme="halloween"] {
+  --accent: #b56d49;
+  --accent-soft: #f1dfd2;
+  --sage: #7e8a72;
+  --season-mark: "✦";
+}
+
+html[data-theme="thanksgiving-season"],
+html[data-theme="thanksgiving"] {
+  --accent: #b86f57;
+  --accent-soft: #f3ddd2;
+  --sage: #8d9275;
+  --gold: #b99055;
+  --season-mark: "❧";
+}
+
+html[data-theme="winter"],
+html[data-theme="christmas"] {
+  --accent: #b9656a;
+  --accent-soft: #f2dfe0;
+  --sage: #718f83;
+  --sage-soft: #e5eeea;
+  --season-mark: "❄";
+}
+
+html[data-theme="newyear"] {
+  --accent: #b77a62;
+  --accent-soft: #f3e2d9;
+  --gold: #b99558;
+  --season-mark: "✦";
+}
+
+html[data-theme="valentine-season"],
+html[data-theme="valentine"] {
+  --accent: #cf6473;
+  --accent-soft: #f7dce2;
+  --season-mark: "♥";
+}
+
+html[data-theme="spring"] {
+  --accent: #c56f79;
+  --accent-soft: #f5e0e3;
+  --sage: #819d7f;
+  --sage-soft: #e5efe3;
+  --season-mark: "❀";
+}
+
+html[data-theme="due"] {
+  --accent: #cf6570;
+  --accent-soft: #f7dce0;
+  --gold: #c09b5c;
+  --season-mark: "✦";
+}
+
+@media (min-width: 700px) {
+  .page { padding-top: 30px; }
+  .content-card { padding: 23px 24px; }
+  .size-card { padding: 23px 25px; }
+}
+
+@media (max-width: 390px) {
+  .page { padding-left: 13px; padding-right: 13px; }
+  .hero { padding-left: 34px; padding-right: 34px; }
+  .hero h1 { font-size: 30px; }
+  .size-visual { width: 66px; height: 66px; flex-basis: 66px; font-size: 36px; }
+  .card-copy { font-size: 17px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .content-card,
+  .size-card,
+  .milestone-card {
+    animation: rise-in .38s ease both;
+  }
+
+  @keyframes rise-in {
+    from { opacity: 0; transform: translateY(7px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
