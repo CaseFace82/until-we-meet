@@ -1,0 +1,74 @@
+UNTIL WE MEET — ART FOLDER
+
+Create a folder named:
+
+art
+
+in the root of the GitHub repository.
+
+WEEKLY HEADER FILES
+-------------------
+The app is prepared for one watercolor header for each gestational week:
+
+header-week-10.webp
+header-week-11.webp
+header-week-12.webp
+...
+header-week-41.webp
+
+That is 32 weekly header files total.
+
+Recommended export:
+- WEBP
+- approximately 1200 × 750 px
+- landscape orientation
+- keep the LEFT side relatively quiet because the greeting/countdown text sits there
+- main scenic/Oliver details work best toward the center/right
+- no text baked into the artwork
+
+The visual progression should feel like San Diego:
+Weeks 10–13: late September / early October, warm coastal early fall
+Weeks 14–17: late October, subtle autumn/Halloween touches
+Weeks 18–21: November, golden coastal autumn / Thanksgiving warmth
+Weeks 22–23: December, greener hills after rain / subtle holiday details
+Weeks 24–28: late December and January, crisp San Diego winter
+Weeks 29–31: February, early flowers / Valentine's touch around Week 30
+Weeks 32–36: late February and March, green hills and wildflowers
+Weeks 37–39: late March / April, bright spring coast
+Weeks 40–41: late April / early May, special final spring scenes
+
+OLIVER FILES
+------------
+The app is prepared for 12 transparent-background Oliver illustrations:
+
+oliver-01.webp
+oliver-02.webp
+...
+oliver-12.webp
+
+Suggested poses:
+01 happy sitting
+02 head tilt
+03 lying down / paws forward
+04 looking to the side
+05 favorite toy
+06 beach pose
+07 little hiking/adventure pose
+08 cozy/sleepy
+09 subtle holiday bandana
+10 spring flowers
+11 sunset/lookout
+12 back view looking at scenery
+
+Recommended export:
+- transparent WEBP
+- approximately 600 × 600 px
+- Oliver centered with breathing room around him
+- consistent watercolor/illustrated style
+- no text baked into the image
+
+IMPORTANT
+---------
+The app has a graceful fallback landscape if a weekly header has not been uploaded yet.
+Missing Oliver art simply leaves that illustration area empty.
+This means the code can be uploaded and tested before all 44 artwork assets are complete.

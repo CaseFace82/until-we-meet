@@ -2,45 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f8f2ec">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#fbf5ee">
 
   <title>Until We Meet</title>
   <meta name="description" content="A little daily journey until we meet.">
 
-  <!-- iPhone / PWA -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Until We Meet">
-  <meta name="mobile-web-app-capable" content="yes">
 
-  <!-- Relative paths are intentional: this app is hosted in a GitHub Pages project folder. -->
   <link rel="manifest" href="./manifest.json">
   <link rel="stylesheet" href="./styles.css">
-
-  <!-- Existing SVG is a fallback; a dedicated PNG Apple icon will be added next. -->
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png">
 </head>
 
 <body>
   <main id="app" aria-live="polite">
-    <div class="error-card">Loading today's little note…</div>
+    <div class="error-card">Loading today…</div>
   </main>
 
   <nav class="bottom-nav" aria-label="Main navigation">
-    <button type="button" class="active" data-nav="today" aria-current="page">
-      <span class="nav-icon" aria-hidden="true">♡</span>
+    <button type="button" data-nav="today" aria-label="Today">
+      <span class="nav-icon" aria-hidden="true">⌂</span>
       <span>Today</span>
     </button>
 
-    <button type="button" data-nav="journey" aria-current="false">
-      <span class="nav-icon" aria-hidden="true">▤</span>
+    <button type="button" data-nav="journey" aria-label="Our Journey">
+      <span class="nav-icon" aria-hidden="true">♡</span>
       <span>Our Journey</span>
     </button>
   </nav>
 
-  <!-- Order matters: the content library must exist before app.js starts. -->
   <script src="./content.js"></script>
   <script src="./app.js"></script>
 </body>

@@ -1,0 +1,226 @@
+{
+  "weekly_headers": [
+    {
+      "week": 10,
+      "file": "art/header-week-10.webp",
+      "theme": "San Diego early fall \u2014 warm coast, sage, golden light"
+    },
+    {
+      "week": 11,
+      "file": "art/header-week-11.webp",
+      "theme": "San Diego early fall \u2014 warm coast, sage, golden light"
+    },
+    {
+      "week": 12,
+      "file": "art/header-week-12.webp",
+      "theme": "San Diego early fall \u2014 warm coast, sage, golden light"
+    },
+    {
+      "week": 13,
+      "file": "art/header-week-13.webp",
+      "theme": "San Diego early fall \u2014 warm coast, sage, golden light"
+    },
+    {
+      "week": 14,
+      "file": "art/header-week-14.webp",
+      "theme": "Late October \u2014 coastal autumn; subtle seasonal warmth"
+    },
+    {
+      "week": 15,
+      "file": "art/header-week-15.webp",
+      "theme": "Late October \u2014 coastal autumn; subtle seasonal warmth"
+    },
+    {
+      "week": 16,
+      "file": "art/header-week-16.webp",
+      "theme": "Late October \u2014 coastal autumn; subtle seasonal warmth"
+    },
+    {
+      "week": 17,
+      "file": "art/header-week-17.webp",
+      "theme": "Late October \u2014 coastal autumn; subtle seasonal warmth"
+    },
+    {
+      "week": 18,
+      "file": "art/header-week-18.webp",
+      "theme": "November \u2014 golden coastal autumn and greener hills"
+    },
+    {
+      "week": 19,
+      "file": "art/header-week-19.webp",
+      "theme": "November \u2014 golden coastal autumn and greener hills"
+    },
+    {
+      "week": 20,
+      "file": "art/header-week-20.webp",
+      "theme": "November \u2014 golden coastal autumn and greener hills"
+    },
+    {
+      "week": 21,
+      "file": "art/header-week-21.webp",
+      "theme": "November \u2014 golden coastal autumn and greener hills"
+    },
+    {
+      "week": 22,
+      "file": "art/header-week-22.webp",
+      "theme": "December \u2014 post-rain green hills; restrained holiday warmth"
+    },
+    {
+      "week": 23,
+      "file": "art/header-week-23.webp",
+      "theme": "December \u2014 post-rain green hills; restrained holiday warmth"
+    },
+    {
+      "week": 24,
+      "file": "art/header-week-24.webp",
+      "theme": "San Diego winter \u2014 crisp sky, coast, fresh green landscape"
+    },
+    {
+      "week": 25,
+      "file": "art/header-week-25.webp",
+      "theme": "San Diego winter \u2014 crisp sky, coast, fresh green landscape"
+    },
+    {
+      "week": 26,
+      "file": "art/header-week-26.webp",
+      "theme": "San Diego winter \u2014 crisp sky, coast, fresh green landscape"
+    },
+    {
+      "week": 27,
+      "file": "art/header-week-27.webp",
+      "theme": "San Diego winter \u2014 crisp sky, coast, fresh green landscape"
+    },
+    {
+      "week": 28,
+      "file": "art/header-week-28.webp",
+      "theme": "San Diego winter \u2014 crisp sky, coast, fresh green landscape"
+    },
+    {
+      "week": 29,
+      "file": "art/header-week-29.webp",
+      "theme": "February \u2014 early blooms and soft romantic warmth"
+    },
+    {
+      "week": 30,
+      "file": "art/header-week-30.webp",
+      "theme": "February \u2014 early blooms and soft romantic warmth"
+    },
+    {
+      "week": 31,
+      "file": "art/header-week-31.webp",
+      "theme": "February \u2014 early blooms and soft romantic warmth"
+    },
+    {
+      "week": 32,
+      "file": "art/header-week-32.webp",
+      "theme": "Late winter/early spring \u2014 green hills and wildflowers"
+    },
+    {
+      "week": 33,
+      "file": "art/header-week-33.webp",
+      "theme": "Late winter/early spring \u2014 green hills and wildflowers"
+    },
+    {
+      "week": 34,
+      "file": "art/header-week-34.webp",
+      "theme": "Late winter/early spring \u2014 green hills and wildflowers"
+    },
+    {
+      "week": 35,
+      "file": "art/header-week-35.webp",
+      "theme": "Late winter/early spring \u2014 green hills and wildflowers"
+    },
+    {
+      "week": 36,
+      "file": "art/header-week-36.webp",
+      "theme": "Late winter/early spring \u2014 green hills and wildflowers"
+    },
+    {
+      "week": 37,
+      "file": "art/header-week-37.webp",
+      "theme": "Spring \u2014 bright coast and abundant wildflowers"
+    },
+    {
+      "week": 38,
+      "file": "art/header-week-38.webp",
+      "theme": "Spring \u2014 bright coast and abundant wildflowers"
+    },
+    {
+      "week": 39,
+      "file": "art/header-week-39.webp",
+      "theme": "Spring \u2014 bright coast and abundant wildflowers"
+    },
+    {
+      "week": 40,
+      "file": "art/header-week-40.webp",
+      "theme": "Final spring chapter \u2014 celebratory coast, warm sunrise, sense of arrival"
+    },
+    {
+      "week": 41,
+      "file": "art/header-week-41.webp",
+      "theme": "Final spring chapter \u2014 celebratory coast, warm sunrise, sense of arrival"
+    }
+  ],
+  "oliver_poses": [
+    {
+      "pose": 1,
+      "file": "art/oliver-01.webp",
+      "description": "Happy sitting"
+    },
+    {
+      "pose": 2,
+      "file": "art/oliver-02.webp",
+      "description": "Head tilt"
+    },
+    {
+      "pose": 3,
+      "file": "art/oliver-03.webp",
+      "description": "Paws forward / lying down"
+    },
+    {
+      "pose": 4,
+      "file": "art/oliver-04.webp",
+      "description": "Side look"
+    },
+    {
+      "pose": 5,
+      "file": "art/oliver-05.webp",
+      "description": "With favorite toy"
+    },
+    {
+      "pose": 6,
+      "file": "art/oliver-06.webp",
+      "description": "Beach day"
+    },
+    {
+      "pose": 7,
+      "file": "art/oliver-07.webp",
+      "description": "Little hiking/adventure pose"
+    },
+    {
+      "pose": 8,
+      "file": "art/oliver-08.webp",
+      "description": "Cozy / sleepy"
+    },
+    {
+      "pose": 9,
+      "file": "art/oliver-09.webp",
+      "description": "Subtle holiday bandana"
+    },
+    {
+      "pose": 10,
+      "file": "art/oliver-10.webp",
+      "description": "Spring flowers"
+    },
+    {
+      "pose": 11,
+      "file": "art/oliver-11.webp",
+      "description": "Sunset lookout"
+    },
+    {
+      "pose": 12,
+      "file": "art/oliver-12.webp",
+      "description": "Back view toward scenery"
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"name":"Until We Meet","short_name":"Until We Meet","start_url":"./","display":"standalone","background_color":"#fbf7f2","theme_color":"#f7efe9","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "name": "Until We Meet",
+  "short_name": "Until We Meet",
+  "description": "A little daily journey until we meet.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf5ee",
+  "theme_color": "#fbf5ee",
+  "icons": [
+    {
+      "src": "./pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
